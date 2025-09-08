@@ -15,8 +15,10 @@
         <div class="flex flex-col items-center justify-center gap-8">
             <h1 class="text-2xl font-bold mb-4 text-white">This is your IP</h1>
             <h2 id="ip_result" class="text-3xl font-semibold text-blue-600 text-lime-200 tracking-wider">Loading...</h2>
-            <button id="copyBtn" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition" onclick="copyToClipboard()">
-                copy
+            <button id="copyBtn" class="px-4 py-2 transition" onclick="copyToClipboard()">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.05em" height="1.2em" viewBox="0 0 448 512"><path fill="#ffffff" d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h140.1l67.9 67.9V320c0 8.8-7.2 16-16 16m-192 48h192c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9l-67.8-67.9c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64v256c0 35.3 28.7 64 64 64M64 128c-35.3 0-64 28.7-64 64v256c0 35.3 28.7 64 64 64h192c35.3 0 64-28.7 64-64v-32h-48v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16h32v-48z"/></svg>
+                </span>
             </button>
         </div>
     </div>
