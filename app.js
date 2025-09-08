@@ -11,3 +11,13 @@ window.onload = () => {
             ip_result.innerText = "Error fetching IP";
         });
 };
+
+
+function copyToClipboard() {
+    const ipText = ip_result.innerText;
+    navigator.clipboard.writeText(ipText).then(() => {
+        alert("IP address copied to clipboard!");
+    }).catch(err => {
+        console.error('Could not copy text: ', err);
+    });
+}
