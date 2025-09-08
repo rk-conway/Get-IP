@@ -10,8 +10,9 @@
 
 body{
     background-color: black;
-    background-image: 
+    background-image:
+    radial-gradient(circle at center, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0) ),
     repeating-linear-gradient(90deg, #000000 0px 29px, transparent 29px 30px),
     repeating-linear-gradient(0deg, #000000 0px 29px, transparent 29px 30px),
-    linear-gradient(45deg, #000000 0%, black, #4ef500 74%);
+    linear-gradient(45deg,  rgb(0, 17, 248),#00c8fa, #c8ff00, #4ef500);
 }
